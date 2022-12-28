@@ -1,1 +1,12 @@
 node_modules
+package-lock.json
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/robots.txt
+src/App.css
+src/App.js
+src/App.test.js
+src/logo.svg
+src/reportWebVitals.js
+src/setupTests.js
