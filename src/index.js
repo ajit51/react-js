@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./index.css"
 
 const fName = "Ajit";
 const lName = "Kumar";
@@ -12,12 +13,14 @@ const links = "https://www.thapatechnical.com/";
 
 ReactDOM.render(
 <>
-  <h1 contentEditable="true"> { `Hello, My name is ${ fName } ${lName}`}</h1>
+  <h1 className="heading"> { `Hello, My name is ${ fName } ${lName}`}</h1>
+  <div className='img_div'>
   <img src={img1} alt="random images1"/>
   <img src={img2} alt="random images2"/>
   <a href={links} target="_blank">
   <img src={img3} alt="random images3" />
   </a>
+  </div>
   </>
   ,
   document.getElementById("root")
