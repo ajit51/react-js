@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// In react version 16 it,s possible for render() to return an array of elements.
+const name = "Vonod Thapa";
+
+//we can write JSX expression but not write statemenet 
 
 ReactDOM.render(
-<React.Fragment>
-  <h1>Thapa Technical</h1>
-  <p>Plz like and subscribe</p>
-  <h1>Plz cubscribe my channel</h1>
-  </React.Fragment>
+<>
+  <h1>My name is { name }</h1>
+  <h1>My lucky number is { 2 + 5}</h1>
+  <h1>Random number is {Math.random()}</h1>
+  </>
   ,
   document.getElementById("root")
 )
